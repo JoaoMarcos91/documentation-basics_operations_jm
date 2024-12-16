@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentação - basics_operations_jm</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Documentação da Biblioteca basics_operations_jm</h1>
+    <h2>Para Python</h2>
+    <nav>
+      <ul>
+        <li><a href="#introducao">Introdução</a></li>
+        <li><a href="#instalacao">Instalação</a></li>
+        <li><a href="#importar">Como importar</a></li>
+        <li><a href="#exemplos">Exemplos</a></li>
+        <li><a href="#api">API</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="introducao">
+      <h2>Introdução</h2>
+      <p>Bem-vindo à documentação da minha biblioteca Python!</p>
+    </section>
+
+    <section id="instalacao">
+      <h2>Instalação</h2>
+      <pre><code id="pip-install">pip install minha-biblioteca</code></pre>
+      <button id="copy-pip" class="copy-btn">Copiar Código</button>
+    </section>
+
+    <section id="importar">
+        <h2>Importação</h2>
+        <p>A biblioteca <pre class="code-importar"><code>basics_operations_jm</code></pre> comporta algumas funções já prontas, as quais você pode importar separadamente. Aqui estão elas:</p>
+        <div class="importar">
+            <h4>Para importar a biblioteca inteira</h4>
+            <pre><code id="importar-tudo">from basics_operations_jm import *</code></pre>
+            <button id="copy-importar-tudo" class="copy-btn">Copiar Código</button>
+            <p>
+                Exemplo de uso:
+            </p>
+            <pre><code id="importar-tudo-exemplo">from basics_operations_jm import *
+
+
+result_soma = basics_operations_jm.soma(2, 3, 4)
+
+result_subtracao = basics_operations_jm.subtracao(5, 2)
+
+result_multi =  basics_operations_jm.multi(4, 2)
+
+result_divisao = basics_operations_jm.divisao(10, 2)
+        </code></pre>
+            <button id="copy-importar-tudo-exemplo" class="copy-btn">Copiar Código</button>
+        </div>
+
+        <div class="importar">
+            <h4>Para importar funções separadamente</h4>
+
+            <pre><code id="importar-tudo">from basics_operations_jm import &lt;nome-da-função&gt;</code></pre>
+            <button id="copy-importar-tudo" class="copy-btn">Copiar Código</button>
+    
+        </div>  
+    </section>
+
+    <section id="exemplos">
+      <h2>Exemplos</h2>
+      <p>Aqui estão alguns exemplos de uso:</p>
+      <pre><code id="codigo-exemplo">
+import minha_biblioteca
+print(minha_biblioteca.somar(1, 2, 3))
+      </code></pre>
+      <button id="copy-exemplo" class="copy-btn">Copiar Código</button>
+    </section>
+
+    <section id="api">
+      <h2>Referência da API</h2>
+      <p>A API da biblioteca suporta as seguintes funções:</p>
+      <ul>
+        <li><code>somar(*args)</code>: Soma números.</li>
+        <li><code>multiplicar(*args)</code>: Multiplica números.</li>
+        <li><code>dividir(*args)</code>: Divide números.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Minha Biblioteca</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
