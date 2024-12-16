@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="biblioteca Python, operações básicas, soma, subtração, multiplicação, divisão, funções matemáticas, Python básico, Documentação basics_operations_jm, brabrabrabrabrabrabrabrabrabrabrab, biblioteca, copiar, código, importar, import">
+  <meta name="keywords" content="biblioteca Python, operações básicas, soma, subtração, multiplicação, divisão, funções matemáticas, Python básico, Documentação basicsoperations, brabrabrabrabrabrabrabrabrabrabrab, biblioteca, copiar, código, importar, import">
   <meta name="rating" content="general">
   <meta name="google-site-verification" content="jloPaK2kCjihvZxo7W0PrXO4lWhhgn1UITJ09gmmenA">
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Documentação da biblioteca basics_operations_jm, que oferece funções básicas de matemática para Python como soma, subtração, multiplicação e divisão. Você tem exemplos de código/códigos onde pode importar a biblioteca, e pode copiar e colar o código.">
+  <meta name="description" content="Documentação da biblioteca basicsoperations, que oferece funções básicas de matemática para Python como soma, subtração, multiplicação e divisão. Você tem exemplos de código/códigos onde pode importar a biblioteca, e pode copiar e colar o código.">
   <link rel="stylesheet" href="style.css" media="all" onload="this.onload=null;this.rel='stylesheet'">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXX-X"></script>
   <script type="application/ld+json">
@@ -26,19 +26,18 @@
   gtag('js', new Date());
   gtag('config', 'UA-XXXXXX-X');
     </script>   
-  <title>Documentação - basics_operations_jm - Python</title>
+  <title>Documentação - basicsoperations - Python</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Documentação da Biblioteca <strong>basics_operations_jm</strong></h1>
+    <h1>Documentação da Biblioteca <strong>basicsoperations</strong></h1>
     <h2>Para Python</h2>
     <nav>
       <ul>
         <li><a href="#introducao">Introdução</a></li>
         <li><a href="#instalacao">Instalação</a></li>
         <li><a href="#importar">Como importar</a></li>
-        <li><a href="#exemplos">Exemplos</a></li>
         <li><a href="#api">API</a></li>
       </ul>
     </nav>
@@ -47,71 +46,52 @@
   <main>
     <section id="introducao">
       <h2>Introdução</h2>
-      <p>Bem-vindo à documentação da minha biblioteca Python!</p>
+      <p>Bem-vindo à documentação da biblioteca <strong>basicsoperations</strong> Python</p>
     </section>
 
     <section id="instalacao">
       <h2>Instalação</h2>
-      <pre><code id="pip-install">pip install minha-biblioteca</code></pre>
+      <p>Você deve rodar esse comando no seu terminal para poder realizar a instalação do <strong>basicsoperations</strong>.</p>
+      <pre><code id="pip-install">pip install basicsoperations</code></pre>
       <button id="copy-pip" class="copy-btn">Copiar Código</button>
     </section>
 
     <section id="importar">
         <h2>Importação</h2>
-        <p>A biblioteca <pre class="code-importar"><code>basics_operations_jm</code></pre> comporta algumas funções já prontas, as quais você pode importar separadamente. Aqui estão elas:</p>
-        <div class="importar">
-            <h4>Para importar a biblioteca inteira</h4>
-            <pre><code id="importar-tudo">from basics_operations_jm import *</code></pre>
+        <p>A importação da biblioteca <pre class="code-importar"><code>basicsoperations</code></pre> é bastante simples, basta adicionar essa linha de código no início de seu código Python:</p>
+            <pre><code id="importar-tudo">import basicsoperations</code></pre>
             <button id="copy-importar-tudo" class="copy-btn">Copiar Código</button>
             <p>
                 Exemplo de uso:
             </p>
-            <pre><code id="importar-tudo-exemplo">from basics_operations_jm import *
+            <pre><code id="importar-tudo-exemplo">import basicsoperations
 
 
-result_soma = basics_operations_jm.soma(2, 3, 4)
+result_soma = basicsoperations.soma(2, 3, 4)
 
-result_subtracao = basics_operations_jm.subtracao(5, 2)
+result_subtracao = basicsoperations.subtracao(5, 2, 4)
 
-result_multi =  basics_operations_jm.multi(4, 2)
+result_multi =  basicsoperations.multiplicacao(4, 2, 0.5)
 
-result_divisao = basics_operations_jm.divisao(10, 2)
+result_divisao = basicsoperations.divisao(10, 2, 3)
         </code></pre>
             <button id="copy-importar-tudo-exemplo" class="copy-btn">Copiar Código</button>
-        </div>
-
-        <div class="importar">
-            <h4>Para importar funções separadamente</h4>
-
-            <pre><code id="importar-tudo">from basics_operations_jm import &lt;nome-da-função&gt;</code></pre>
-            <button id="copy-importar-tudo" class="copy-btn">Copiar Código</button>
-    
-        </div>  
-    </section>
-
-    <section id="exemplos">
-      <h2>Exemplos</h2>
-      <p>Aqui estão alguns exemplos de uso:</p>
-      <pre><code id="codigo-exemplo">
-import minha_biblioteca
-print(minha_biblioteca.somar(1, 2, 3))
-      </code></pre>
-      <button id="copy-exemplo" class="copy-btn">Copiar Código</button>
     </section>
 
     <section id="api">
       <h2>Referência da API</h2>
-      <p>A API da biblioteca suporta as seguintes funções:</p>
+      <p>A API da biblioteca <strong>basicsoperations</strong> na versão mais recente (0.1.0) suporta as seguintes funções:</p>
       <ul>
-        <li><code>somar(*args)</code>: Soma números.</li>
-        <li><code>multiplicar(*args)</code>: Multiplica números.</li>
-        <li><code>dividir(*args)</code>: Divide números.</li>
+        <li><code>soma(*args)</code>: Soma todos os números colocados dentro dos parênteses.</li>
+        <li><code>subtracao(*args)</code>: Subtrai todos os números colocados dentro dos parênteses em ordem da esquerda para a direita.</li>
+        <li><code>multiplicacao(*args)</code>: Multiplica todos os números colocados dentro dos parênteses.</li>
+        <li><code>dividisao(*args)</code>: Divide todos os números colocados dentro dos parênteses em ordem da esquerda para a direita.</li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2024 Minha Biblioteca</p>
+    <p>&copy; 2024 <strong>basicsoperations</strong> por <strong><a class="a" href="mailto:joaomarcospaulini@gmail.com">João Marcos</a></strong></p>
   </footer>
   <script src="script.js"></script>
 </body>
